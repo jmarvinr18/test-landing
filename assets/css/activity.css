@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.yellow-square{
+
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	background-size: cover;
+	margin: 2px 5px;
+
+}
+
+.yellow-blue{
+
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	background-size: cover;
+	border-left: 5px solid blue;
+	border-right: 5px solid blue;
+	margin: 2px 5px;
+
+}
+
+.cool-borders{
+
+	height: 50px;
+	width: 150px;
+	border: 1px solid black;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	margin: 2px 5px;
+	text-align: center;
+	padding: 10px 5px 5px 5px;
+}
+
+.pink-circle{
+
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+	background-size: cover;
+	border-radius: 100px;
+	margin: 10px 5px;
+
+}
+
+.centered-pink-circle{
+
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+	background-size: cover;
+	border-radius: 100px;
+	margin: 0;
+
+
+}
+
+.centered-pink-circle > p{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.rect-tree{
+	height: 100px;
+	width: 300px;
+	border: 1px solid black;
+
+}
+
+#flower{
+	margin-top: 29px;
+	float: left;
+	height: 70%;
+}
+
+.sun-n-tree{
+	height: 100px;
+	width: 300px;
+	border: 1px solid black;
+
+}
+
+#sun{
+	float: left;
+	height: 60%;
+}
+
+#cocotree{
+
+	margin-top: 39px;
+	float: right;
+	height: 60%;
+}
+
+.sun-n-tree > p {
+	margin-top: 38px;
+	text-align: center;
+}
+
+.rect{
+
+	height: 102px;
+	width: 300px;
+	border: 1px solid black;
+
+}
+
+.rect > p {
+	text-align: center;
+	/*margin-left: 50px;*/
+	margin-top: 50px;
+
+}
+
+.dog-in-circle1{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-image: url(../images/dog.jpg);
+	background-size: cover;
+
+}
+.dog-in-circle{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-image: url(../images/dog.jpg);
+	background-size: cover;
+	position: relative;
+	top: -68px;
+
+}
+
+
+.red-hood{
+	min-height: 250px;
+	width: 450px;
+	border: 1px solid black;
+
+}
+
+#red-pix{
+	height: 80px;
+	width: 50px;
+	display: block;
+	margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lil-red-hood{
+	text-align: center;
+
+}
+
+.lil-red-hood2{
+	text-align: center;
+	background-color: rgba(208, 0, 0,0.5);
+
+}
+
+
+table{
+	border-collapse: collapse;
+}
+
+th{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+	td, th{
+	padding-right: 10px;
+	border: 1px solid black;
+
+}
